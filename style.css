@@ -1052,7 +1052,7 @@ footer {
 
 .modal-window {
 	position: fixed;
-	width: auto;
+	width: 400px;
 	height: auto;
 	z-index: 150;
 	left: 50%;
