@@ -460,6 +460,11 @@ header {
 	background: url(images/bg3.png);
 	background-size: cover;
 	box-shadow: 0px 30px 30px -20px rgba(0, 0, 0, 0.5);
+	-o-box-shadow: 0px 30px 30px -20px rgba(0, 0, 0, 0.5);
+	-ms-box-shadow: 0px 30px 30px -20px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0px 30px 30px -20px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0px 30px 30px -20px rgba(0, 0, 0, 0.5);
+	z-index: 10;
 }
 
 .game-text {
@@ -530,7 +535,6 @@ header {
 	display: -webkit-box; 
 	display: -webkit-flex;
 	justify-content: center;
-	background: #faf8f8;
 }
 
 .happen {
