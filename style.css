@@ -40,18 +40,17 @@ header {
 	justify-content: center;
 	align-items: center;
 	height: 10vh;
-	line-height: 10vh;
 }
 
 .header {
-	width: 1150px;
+	width: 1350px;
 	display: flex; 
 	display: -moz-box; 
 	display: -ms-flexbox; 
 	display: -webkit-box; 
 	display: -webkit-flex;
 	align-items: space-between;
-	margin-left: 100px;
+	margin-left: 225px;
 }
 
 .header-text {
@@ -60,6 +59,7 @@ header {
 	font-weight: bold;
 	font-size: 20px;
 	margin-left: 250px;
+	margin-top: 15px;
 }
 
 .main-content {
@@ -855,6 +855,13 @@ footer {
 	.chat:after {
 		display: none;
 	}
+	.header-text {
+		align-items: center !important;
+		margin-left: 25px;
+	}
+	.header {
+		margin-left: 150px;
+	}
 }
 
 @media screen and (max-width: 1000px) {
@@ -1017,6 +1024,9 @@ footer {
 	.real-desc-adds {
 		white-space: normal;
 	}
+	.header {
+		margin-left: 0;
+	}
 }
 
 @media screen and (max-width: 900px) {
@@ -1052,6 +1062,9 @@ footer {
 	}
 	.start-desc {
 		font-size: 18px;
+	}
+	.header {
+		height: 15vh;
 	}
 }
 
