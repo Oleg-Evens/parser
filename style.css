@@ -815,6 +815,8 @@ header {
 	justify-content: center;
 	padding-top: 25px;
 	padding-bottom: 25px;
+	background: url(images/bg4.png);
+	background-size: cover;
 }
 
 .end {
