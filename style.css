@@ -1187,6 +1187,18 @@ footer {
 	.header {
 		height: 15vh;
 	}
+	.author-img img {
+		border: 1px #000 solid;
+	    border-radius: 7px;
+	    padding: 5px;
+	    padding-bottom: 0;
+	}
+	.real-img img {
+		border: 1px #000 solid;
+	    border-radius: 7px;
+	    padding: 5px;
+	    padding-bottom: 0;
+	}
 }
 
 .modal-window {
