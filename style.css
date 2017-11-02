@@ -137,7 +137,7 @@ header {
 .start {
 	width: 900px;
 	font-family: Open-Sans;
-	margin-bottom: 80px;
+	margin-bottom: 30px;
 }
 
 .start-name {
@@ -157,11 +157,11 @@ header {
 	display: -webkit-flex;
 	justify-content: space-between;
 	width: 100%;
-	margin-top: 90px;
+	margin-top: 45px;
 }
 
 .start-part:last-child {
-	margin-top: 170px;
+	margin-top: 85px;
 }
 
 .start-text {
