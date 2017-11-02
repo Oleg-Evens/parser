@@ -674,7 +674,7 @@ header {
 	display: -webkit-box; 
 	display: -webkit-flex;
 	flex-direction: column;
-	width: 900px;
+	width: 925px;
 	border-left: 5px #9b0d00 solid;
 	-o-border-left: 5px #9b0d00 solid;
     -ms-border-left: 5px #9b0d00 solid;
@@ -702,6 +702,7 @@ b {
 	font-size: 20px;
 	margin-top: 25px;
 	z-index: 5;
+	font-weight: 500;
 }
 
 .chat-item:first-child {
