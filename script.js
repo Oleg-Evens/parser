@@ -13,6 +13,11 @@ $('.happen-btn').on('click',function(){
 	$('.modal-window').toggleClass('show-w');
 });
 
+$('.end-btn').on('click',function(){
+	$('.blackout').toggleClass('show');
+	$('.modal-window').toggleClass('show-w');
+});
+
 $('.blackout').on('click',function(){
 	$('.blackout').toggleClass('show');
 	$('.modal-window').toggleClass('show-w');
