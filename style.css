@@ -179,13 +179,12 @@ header {
 }
 
 .start-desc {
-	font-size: 22px;
+	font-size: 18px;
 	color: #052c45;
-	font-weight: bold;
+	font-weight: 550;
 	line-height: 1.5;
 	margin-top: 15px;
 }
-
 
 .si1 {
 	margin-right: 65px;
