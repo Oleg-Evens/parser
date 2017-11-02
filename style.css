@@ -879,7 +879,7 @@ b {
     -webkit-border-radius: 9px;
 	font-family: Open-Sans;
 	font-size: 22px;
-	margin: 30px auto 0 auto;
+	margin: 45px auto 15px auto;
 	cursor: pointer;
 	box-shadow: 0 3px 3px rgba(0,0,0,0.5);
 	-o-box-shadow: 0 3px 3px rgba(0,0,0,0.5);
@@ -897,7 +897,7 @@ b {
 .adds-url:before {
 	content: url(images/arrow-f.png);
 	left: -115px;
-	top: -130px;
+	top: -140px;
 	position: absolute;
 }
 
