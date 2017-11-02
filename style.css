@@ -364,6 +364,7 @@ header {
 	display: -webkit-box; 
 	display: -webkit-flex;
 	justify-content: center;
+	padding-bottom: 15px;
 }
 
 .plus {
@@ -811,7 +812,11 @@ header {
 
 .main-end {
 	width: 100%;
-	display: flex;
+	display: flex; 
+	display: -moz-box; 
+	display: -ms-flexbox; 
+	display: -webkit-box; 
+	display: -webkit-flex;
 	justify-content: center;
 	padding-top: 25px;
 	padding-bottom: 25px;
@@ -837,7 +842,11 @@ header {
 }
 
 .end-item {
-	display: flex;
+	display: flex; 
+	display: -moz-box; 
+	display: -ms-flexbox; 
+	display: -webkit-box; 
+	display: -webkit-flex;
 	font-size: 20px;
 	align-items: center;
 	width: 350px;
@@ -866,6 +875,8 @@ header {
     -ms-box-shadow: 0 3px 3px rgba(0,0,0,0.5);
     -moz-box-shadow: 0 3px 3px rgba(0,0,0,0.5);
     -webkit-box-shadow: 0 3px 3px rgba(0,0,0,0.5);
+    -webkit-animation: b 3s infinite cubic-bezier(.46, .03, .52, .96);
+    animation: b 3s infinite cubic-bezier(.46, .03, .52, .96);
 }
 
 .end-btn:before {
@@ -876,7 +887,11 @@ header {
 }
 
 .end-icons {
-	display: flex;
+	display: flex; 
+	display: -moz-box; 
+	display: -ms-flexbox; 
+	display: -webkit-box; 
+	display: -webkit-flex;
 	justify-content: space-between;
 }
 
